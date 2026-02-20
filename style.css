@@ -24,6 +24,7 @@ aside {
     width: 20%;
     padding-bottom: 500px;
     margin-right: 10px;
+    overflow: scroll;
 }
 
 main {
