@@ -39,8 +39,15 @@ main {
 article {
     background-color: cornflowerblue;
     border-radius: 5px;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 50px;
     padding-bottom: 500px;
+    padding-top: 50px;
+}
+
+article p {
+    background-color: darkkhaki;
+    border-radius: 5px;
+    margin: 0px 50px;
 }
 
 footer {
