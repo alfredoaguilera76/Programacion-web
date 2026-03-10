@@ -3,50 +3,64 @@ body {
 }
 
 header {
-    background-color: deeppink;
+    background-color: #005C53;
     text-align: center;
     padding: 25px;
 }
 
 nav {
-    background-color: mediumseagreen;
+    background-color: #042940;
     text-align: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 div {
     display: flex;
+    margin: 0px;
 }
 
 aside {
-    background-color: darksalmon;
+    background-color: #9FC131;
     text-align: center;
     width: 25%;
     padding-bottom: 500px;
-    overflow: scroll;
+}
+
+aside ul {
+    list-style-position: inside;
+    padding: 0;
 }
 
 main {
-    background-color: cyan;
+    background-color: #DBF227;
     text-align: center;
     width: 75%;
+    height: 100%;
     padding-bottom: 500px;
-    margin-bottom: 10px;
 }
 
 article {
-    background-color: cornflowerblue;
+    background-color: #D6D58E;
     margin: 0px 50px;
-    padding-bottom: 500px;
-    padding-top: 50px;
+    padding: 50px;
 }
 
-article p {
-    background-color: darkkhaki;
-    margin: 0px 50px;
+.text-box {
+    background-color: #9FC131;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 200px;
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: #042940;
+    color: white;
     text-align: center;
 }
